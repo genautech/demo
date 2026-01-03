@@ -12,17 +12,21 @@ import {
   FAQ,
 } from "@/components/solutions/institutional"
 import { motion } from "framer-motion"
-import { Sparkles, Rocket, Clock, TrendingUp, Users, Target, Store, Coins, Gift, Smartphone, MapPin, Plug, Trophy, Zap, Warehouse, Truck } from "lucide-react"
+import { Sparkles, Rocket, Clock, TrendingUp, Users, Target, Store, Coins, Gift, Smartphone, MapPin, Plug, Trophy, Zap, Warehouse, Truck, LayoutGrid, Users2, PackageSearch } from "lucide-react"
 
 const PLATFORM_FEATURES = [
   { icon: Store, label: "Loja Multi-moeda", description: "Catálogo com moedas personalizadas" },
   { icon: Coins, label: "Resgate com Pontos", description: "Produtos com pontos de gamificação" },
   { icon: Gift, label: "Envio de Presentes", description: "Reconhecimento corporativo" },
   { icon: Smartphone, label: "Produtos Digitais", description: "Vouchers e gift cards" },
+  { icon: LayoutGrid, label: "Catálogo Pronto", description: "Produtos pré-cadastrados" },
+  { icon: Users2, label: "Portal de Fornecedores", description: "Cadastro de novos parceiros" },
   { icon: Warehouse, label: "Gestão de Estoque", description: "Controle físico integrado" },
-  { icon: Truck, label: "Centro de Distribuição", description: "Fulfillment integrado" },
+  { icon: Truck, label: "Logística Integrada", description: "Fulfillment e distribuição" },
+  { icon: PackageSearch, label: "Armazenamento", description: "Storage e inventário" },
   { icon: MapPin, label: "Rastreio em Tempo Real", description: "Acompanhamento de entregas" },
   { icon: Plug, label: "APIs de Gamificação", description: "Workvivo, Beehome e mais" },
+  { icon: Trophy, label: "Gamificação Nativa", description: "Níveis e conquistas" },
 ]
 
 export default function PlanosPage() {
@@ -116,7 +120,7 @@ export default function PlanosPage() {
               </p>
             </motion.div>
             
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
               {PLATFORM_FEATURES.map((feature, index) => (
                 <motion.div
                   key={feature.label}

@@ -22,7 +22,10 @@ import {
   Plug,
   Zap,
   Warehouse,
-  Truck
+  Truck,
+  PackageSearch,
+  Users2,
+  LayoutGrid
 } from "lucide-react"
 
 const PERSONAS = [
@@ -72,8 +75,11 @@ const FEATURES = [
   { icon: Coins, label: "Resgate com Pontos", description: "Colaboradores resgatam produtos com seus pontos" },
   { icon: Gift, label: "Envio de Presentes", description: "Reconheça e premie sua equipe" },
   { icon: Smartphone, label: "Produtos Digitais", description: "Vouchers, gift cards e benefícios instantâneos" },
+  { icon: LayoutGrid, label: "Catálogo Pronto", description: "Produtos pré-cadastrados para você começar rápido" },
+  { icon: Users2, label: "Portal de Fornecedores", description: "Cadastro e gestão de novos fornecedores" },
   { icon: Warehouse, label: "Gestão de Estoque", description: "Controle físico integrado em tempo real" },
-  { icon: Truck, label: "Centro de Distribuição", description: "Fulfillment e logística integrados" },
+  { icon: Truck, label: "Logística Integrada", description: "Centro de distribuição e fulfillment" },
+  { icon: PackageSearch, label: "Armazenamento", description: "Storage e controle de inventário" },
   { icon: MapPin, label: "Rastreio em Tempo Real", description: "Acompanhe cada entrega do início ao fim" },
   { icon: Plug, label: "APIs de Gamificação", description: "Integre com Workvivo, Beehome e outras plataformas" },
   { icon: Trophy, label: "Gamificação Nativa", description: "Níveis, conquistas e rankings integrados" },
