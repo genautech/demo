@@ -12,7 +12,7 @@ import {
   FAQ,
 } from "@/components/solutions/institutional"
 import { motion } from "framer-motion"
-import { Sparkles, DollarSign, Clock, TrendingUp } from "lucide-react"
+import { Sparkles, Rocket, Clock, TrendingUp, Users, Target } from "lucide-react"
 
 export default function PlanosPage() {
   return (
@@ -20,7 +20,7 @@ export default function PlanosPage() {
       <InstitutionalHeader />
       
       <main className="flex-1 pt-16">
-        {/* Hero for Pricing Page - Focused on ROI */}
+        {/* Hero for Pricing Page - Focused on Innovation & Engagement */}
         <section className="py-20 relative overflow-hidden">
           {/* Background Elements */}
           <div className="absolute inset-0 -z-10">
@@ -34,8 +34,8 @@ export default function PlanosPage() {
               animate={{ opacity: 1, y: 0 }}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6"
             >
-              <Sparkles className="w-4 h-4" />
-              <span className="text-sm font-medium">Preços transparentes, ROI garantido</span>
+              <Rocket className="w-4 h-4" />
+              <span className="text-sm font-medium">Inovação que escala com você</span>
             </motion.div>
 
             <motion.h1
@@ -43,9 +43,9 @@ export default function PlanosPage() {
               animate={{ opacity: 1, y: 0 }}
               className="text-4xl md:text-5xl font-bold mb-6"
             >
-              APIs Premium a partir de{" "}
+              Transforme engajamento em{" "}
               <span className="bg-gradient-to-r from-primary to-violet-500 bg-clip-text text-transparent">
-                R$ 999/mês
+                resultados reais
               </span>
             </motion.h1>
             
@@ -55,8 +55,8 @@ export default function PlanosPage() {
               transition={{ delay: 0.1 }}
               className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10"
             >
-              50-70% mais competitivo que soluções internacionais. 
-              Economize mais de R$ 100.000 vs desenvolvimento próprio.
+              Planos flexíveis para cada momento da sua jornada. 
+              Escale o engajamento da sua equipe e maximize a retenção de talentos.
             </motion.p>
 
             {/* Key Value Props */}
@@ -64,19 +64,23 @@ export default function PlanosPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="flex flex-wrap justify-center gap-6 mb-8"
+              className="flex flex-wrap justify-center gap-4 mb-8"
             >
-              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20">
-                <Clock className="w-4 h-4 text-green-500" />
-                <span className="text-sm font-medium">Go-live em 15 dias</span>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/20">
+                <Clock className="w-4 h-4 text-primary" />
+                <span className="text-sm font-medium">Implementação ágil</span>
               </div>
-              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20">
-                <DollarSign className="w-4 h-4 text-green-500" />
-                <span className="text-sm font-medium">Economia de R$ 100k+</span>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/20">
+                <Users className="w-4 h-4 text-primary" />
+                <span className="text-sm font-medium">Engajamento escalável</span>
               </div>
-              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20">
-                <TrendingUp className="w-4 h-4 text-green-500" />
-                <span className="text-sm font-medium">+35% retenção</span>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/20">
+                <Target className="w-4 h-4 text-primary" />
+                <span className="text-sm font-medium">Retenção de talentos</span>
+              </div>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/20">
+                <TrendingUp className="w-4 h-4 text-primary" />
+                <span className="text-sm font-medium">Novas oportunidades</span>
               </div>
             </motion.div>
           </div>

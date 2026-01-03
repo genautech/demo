@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Calendar, MessageCircle, Clock, DollarSign, Zap, CheckCircle2 } from "lucide-react"
+import { ArrowRight, Calendar, MessageCircle, Clock, Sparkles, Rocket, CheckCircle2, Users, TrendingUp } from "lucide-react"
 import Link from "next/link"
 
 export function FinalCTA() {
@@ -27,15 +27,15 @@ export function FinalCTA() {
 
       <div className="container px-4 mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Urgency Badge */}
+          {/* Innovation Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 mb-8"
           >
-            <Zap className="w-4 h-4" />
-            <span className="text-sm font-medium">Go-live em 15 dias • Economize R$ 100k+</span>
+            <Rocket className="w-4 h-4" />
+            <span className="text-sm font-medium">Inovação que transforma equipes</span>
           </motion.div>
 
           <motion.h2
@@ -44,7 +44,7 @@ export function FinalCTA() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6"
           >
-            Pare de perder tempo e dinheiro com desenvolvimento próprio
+            Engajamento que escala, resultados que aparecem
           </motion.h2>
 
           <motion.p
@@ -54,8 +54,8 @@ export function FinalCTA() {
             transition={{ delay: 0.1 }}
             className="text-lg md:text-xl opacity-90 mb-10 leading-relaxed max-w-2xl mx-auto"
           >
-            Enquanto você planeja 6 meses de desenvolvimento, sua concorrência já está 
-            engajando clientes com gamificação. <span className="font-semibold">Comece hoje.</span>
+            Descubra como empresas líderes estão transformando a experiência dos colaboradores 
+            e aumentando a retenção de talentos. <span className="font-semibold">Sua jornada começa aqui.</span>
           </motion.p>
 
           {/* Value Props Row */}
@@ -67,12 +67,16 @@ export function FinalCTA() {
             className="flex flex-wrap justify-center gap-4 mb-10"
           >
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10">
-              <Clock className="w-4 h-4" />
-              <span className="text-sm">15 dias para go-live</span>
+              <Sparkles className="w-4 h-4" />
+              <span className="text-sm">Experiência inovadora</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10">
-              <DollarSign className="w-4 h-4" />
-              <span className="text-sm">A partir de R$ 999/mês</span>
+              <Users className="w-4 h-4" />
+              <span className="text-sm">Engajamento escalável</span>
+            </div>
+            <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10">
+              <TrendingUp className="w-4 h-4" />
+              <span className="text-sm">Retenção de talentos</span>
             </div>
           </motion.div>
 
@@ -130,7 +134,7 @@ export function FinalCTA() {
             </div>
             <div className="flex items-center gap-2 opacity-90">
               <CheckCircle2 className="w-4 h-4" />
-              <span>ROI calculado na hora</span>
+              <span>Plano sob medida</span>
             </div>
           </motion.div>
 
@@ -142,7 +146,7 @@ export function FinalCTA() {
             transition={{ delay: 0.4 }}
             className="mt-8 text-sm opacity-70"
           >
-            Junte-se a Yampi, Hapvida, Prio3 e +500 empresas que já transformaram seu engajamento
+            Junte-se a empresas inovadoras que já transformaram a experiência dos seus colaboradores
           </motion.p>
         </div>
       </div>
