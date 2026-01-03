@@ -15,7 +15,14 @@ import {
   Package, 
   Sparkles,
   Store,
-  BarChart3
+  BarChart3,
+  Coins,
+  Smartphone,
+  MapPin,
+  Plug,
+  Zap,
+  Warehouse,
+  Truck
 } from "lucide-react"
 
 const PERSONAS = [
@@ -61,12 +68,15 @@ const PERSONAS = [
 ]
 
 const FEATURES = [
-  { icon: Store, label: "Loja Corporativa", description: "Catálogo de produtos personalizável" },
-  { icon: Trophy, label: "Gamificação", description: "Sistema de pontos e níveis" },
-  { icon: Gift, label: "Envio de Presentes", description: "Reconheça sua equipe" },
-  { icon: Package, label: "Rastreamento", description: "Acompanhe entregas em tempo real" },
-  { icon: BarChart3, label: "Analytics", description: "Dashboards e relatórios" },
-  { icon: Sparkles, label: "Fun Mode", description: "Experiência visual moderna" },
+  { icon: Store, label: "Loja Multi-moeda", description: "Catálogo corporativo com moedas personalizadas" },
+  { icon: Coins, label: "Resgate com Pontos", description: "Colaboradores resgatam produtos com seus pontos" },
+  { icon: Gift, label: "Envio de Presentes", description: "Reconheça e premie sua equipe" },
+  { icon: Smartphone, label: "Produtos Digitais", description: "Vouchers, gift cards e benefícios instantâneos" },
+  { icon: Warehouse, label: "Gestão de Estoque", description: "Controle físico integrado em tempo real" },
+  { icon: Truck, label: "Centro de Distribuição", description: "Fulfillment e logística integrados" },
+  { icon: MapPin, label: "Rastreio em Tempo Real", description: "Acompanhe cada entrega do início ao fim" },
+  { icon: Plug, label: "APIs de Gamificação", description: "Integre com Workvivo, Beehome e outras plataformas" },
+  { icon: Trophy, label: "Gamificação Nativa", description: "Níveis, conquistas e rankings integrados" },
 ]
 
 export default function Home() {
@@ -107,14 +117,14 @@ export default function Home() {
       {/* Hero */}
       <section className="container mx-auto px-4 py-12 md:py-20 text-center">
         <Badge className="mb-4 bg-primary/10 text-primary border-primary/20">
-          Plataforma de Loja Corporativa
+          Complemento ideal para plataformas de gamificação
         </Badge>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
           Yoobe Corporate Store
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-          Sistema completo de gestão de loja corporativa com gamificação, 
-          catálogo multi-tenant e experiência de reconhecimento de equipe.
+          Transforme pontos de gamificação em experiências reais. Loja multi-moeda, 
+          resgate de produtos, presentes corporativos e integração com Workvivo, Beehome e mais.
         </p>
         
         {/* Quick Features */}
