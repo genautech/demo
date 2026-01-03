@@ -10,17 +10,16 @@ const FOOTER_LINKS = {
     { label: "Como Funciona", href: "/solucoes/planos#como-funciona" },
     { label: "FAQ", href: "/solucoes#faq" },
   ],
-  empresa: [
-    { label: "Sobre Nós", href: "#" },
-    { label: "Carreiras", href: "#" },
-    { label: "Blog", href: "#" },
-    { label: "Contato", href: "mailto:contato@yoobe.com.br" },
+  parceiros: [
+    { label: "Portal de Fornecedores", href: "/super-admin/fornecedores" },
+    { label: "Programa de Parceiros", href: "/solucoes/planos#parceiros" },
+    { label: "Seja um Fornecedor", href: "mailto:fornecedores@yoobe.com.br" },
   ],
   recursos: [
     { label: "Documentação", href: "/documentacao" },
     { label: "Cases de Sucesso", href: "#" },
-    { label: "Webinars", href: "#" },
     { label: "API Reference", href: "#" },
+    { label: "Contato", href: "mailto:contato@yoobe.com.br" },
   ],
   legal: [
     { label: "Termos de Uso", href: "#" },
@@ -74,9 +73,9 @@ export function InstitutionalFooter() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-white mb-4">Empresa</h4>
+            <h4 className="font-semibold text-white mb-4">Parceiros</h4>
             <ul className="space-y-3">
-              {FOOTER_LINKS.empresa.map((link) => (
+              {FOOTER_LINKS.parceiros.map((link) => (
                 <li key={link.label}>
                   <Link href={link.href} className="text-sm hover:text-primary transition-colors">
                     {link.label}
