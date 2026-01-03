@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#faf5ff"/>
+      <stop offset="100%" style="stop-color:#f3e8ff"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg2)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" fill="#581c87"/>
+  <text x="30" y="38" font-family="system-ui" font-size="20" font-weight="bold" fill="white"><¨ Wizard de Landing Pages</text>
+  <text x="770" y="38" font-family="system-ui" font-size="14" fill="#c4b5fd" text-anchor="end">Gestor</text>
+  
+  <!-- Steps indicator -->
+  <g transform="translate(150, 80)">
+    <circle cx="0" cy="15" r="20" fill="#a855f7"/>
+    <text x="0" y="20" font-family="system-ui" font-size="14" font-weight="bold" fill="white" text-anchor="middle">1</text>
+    <text x="0" y="50" font-family="system-ui" font-size="11" fill="#6b21a8" text-anchor="middle">Identidade</text>
+    
+    <line x1="30" y1="15" x2="95" y2="15" stroke="#d8b4fe" stroke-width="3"/>
+    
+    <circle cx="125" cy="15" r="20" fill="#a855f7"/>
+    <text x="125" y="20" font-family="system-ui" font-size="14" font-weight="bold" fill="white" text-anchor="middle">2</text>
+    <text x="125" y="50" font-family="system-ui" font-size="11" fill="#6b21a8" text-anchor="middle">Conteúdo</text>
+    
+    <line x1="155" y1="15" x2="220" y2="15" stroke="#d8b4fe" stroke-width="3"/>
+    
+    <circle cx="250" cy="15" r="20" fill="#e9d5ff"/>
+    <text x="250" y="20" font-family="system-ui" font-size="14" font-weight="bold" fill="#7c3aed" text-anchor="middle">3</text>
+    <text x="250" y="50" font-family="system-ui" font-size="11" fill="#6b21a8" text-anchor="middle">Produtos</text>
+    
+    <line x1="280" y1="15" x2="345" y2="15" stroke="#e9d5ff" stroke-width="3"/>
+    
+    <circle cx="375" cy="15" r="20" fill="#e9d5ff"/>
+    <text x="375" y="20" font-family="system-ui" font-size="14" font-weight="bold" fill="#7c3aed" text-anchor="middle">4</text>
+    <text x="375" y="50" font-family="system-ui" font-size="11" fill="#6b21a8" text-anchor="middle">Publicar</text>
+  </g>
+  
+  <!-- Form area -->
+  <g transform="translate(50, 130)">
+    <rect width="400" height="290" rx="16" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.1))"/>
+    <text x="30" y="40" font-family="system-ui" font-size="16" font-weight="600" fill="#1e293b">Configurar Conteúdo</text>
+    
+    <text x="30" y="80" font-family="system-ui" font-size="12" fill="#64748b">Título da Página</text>
+    <rect x="30" y="90" width="340" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="45" y="116" font-family="system-ui" font-size="14" fill="#1e293b">Bem-vindo ao Time! <‰</text>
+    
+    <text x="30" y="155" font-family="system-ui" font-size="12" fill="#64748b">Mensagem de Boas-vindas</text>
+    <rect x="30" y="165" width="340" height="80" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="45" y="195" font-family="system-ui" font-size="13" fill="#64748b">Parabéns por fazer parte da nossa</text>
+    <text x="45" y="215" font-family="system-ui" font-size="13" fill="#64748b">equipe! Escolha seu kit...</text>
+    
+    <rect x="30" y="260" width="160" height="45" rx="10" fill="url(#purple)"/>
+    <text x="110" y="290" font-family="system-ui" font-size="14" font-weight="600" fill="white" text-anchor="middle">Próximo ’</text>
+  </g>
+  
+  <!-- Preview -->
+  <g transform="translate(480, 130)">
+    <rect width="270" height="290" rx="16" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.1))"/>
+    <text x="20" y="30" font-family="system-ui" font-size="14" font-weight="600" fill="#1e293b">=ñ Preview</text>
+    
+    <rect x="20" y="50" width="230" height="220" rx="12" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1"/>
+    <rect x="30" y="60" width="210" height="60" rx="8" fill="#7c3aed"/>
+    <text x="135" y="97" font-family="system-ui" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Bem-vindo ao Time! <‰</text>
+    
+    <rect x="45" y="135" width="80" height="80" rx="8" fill="#e9d5ff"/>
+    <text x="85" y="180" font-family="system-ui" font-size="24" text-anchor="middle">=æ</text>
+    
+    <rect x="145" y="135" width="80" height="80" rx="8" fill="#e9d5ff"/>
+    <text x="185" y="180" font-family="system-ui" font-size="24" text-anchor="middle"><</text>
+    
+    <rect x="60" y="230" width="150" height="30" rx="6" fill="#a855f7"/>
+    <text x="135" y="251" font-family="system-ui" font-size="12" font-weight="600" fill="white" text-anchor="middle">Escolher Produtos</text>
+  </g>
+</svg>

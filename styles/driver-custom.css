@@ -1,0 +1,125 @@
+/* Custom styles for driver.js to match Yoobe's fun and modern identity */
+
+.driver-popover {
+  border-radius: 1rem !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  border: 2px solid var(--primary) !important;
+  background: var(--background) !important;
+  padding: 1.5rem !important;
+  max-width: 420px !important;
+  z-index: 1000000001 !important;
+  pointer-events: auto !important;
+}
+
+.driver-popover * {
+  pointer-events: auto !important;
+}
+
+.driver-popover-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: var(--foreground) !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.driver-popover-description {
+  font-size: 0.95rem !important;
+  color: var(--muted-foreground) !important;
+  line-height: 1.6 !important;
+}
+
+.driver-popover-footer {
+  margin-top: 1.25rem !important;
+  display: flex !important;
+  gap: 0.5rem !important;
+  justify-content: flex-end !important;
+}
+
+.driver-popover-footer button {
+  border-radius: 0.5rem !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 600 !important;
+  transition: all 0.2s !important;
+  font-size: 0.875rem !important;
+}
+
+.driver-popover-footer .driver-popover-next-btn {
+  background: var(--primary) !important;
+  color: var(--primary-foreground) !important;
+  border: none !important;
+}
+
+.driver-popover-footer .driver-popover-next-btn:hover {
+  opacity: 0.9 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.driver-popover-footer .driver-popover-prev-btn {
+  background: var(--muted) !important;
+  color: var(--muted-foreground) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.driver-popover-footer .driver-popover-prev-btn:hover {
+  opacity: 0.8 !important;
+}
+
+.driver-popover-footer .driver-popover-close-btn {
+  background: transparent !important;
+  color: var(--muted-foreground) !important;
+  border: 1px solid var(--border) !important;
+  cursor: pointer !important;
+}
+
+.driver-popover-footer .driver-popover-close-btn:hover {
+  background: var(--muted) !important;
+  color: var(--foreground) !important;
+}
+
+/* Botão Done/Concluir - aparece no último step */
+.driver-popover-footer .driver-popover-done-btn {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+  color: white !important;
+  border: none !important;
+  cursor: pointer !important;
+  font-weight: 700 !important;
+}
+
+.driver-popover-footer .driver-popover-done-btn:hover {
+  opacity: 0.9 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 6px -1px rgba(34, 197, 94, 0.3) !important;
+}
+
+/* Garantir que o botão X (close no header) funcione */
+.driver-popover-close-btn-custom,
+.driver-popover button[aria-label*="close"],
+.driver-popover button[aria-label*="Close"] {
+  cursor: pointer !important;
+  pointer-events: auto !important;
+}
+
+.driver-popover-progress-text {
+  font-size: 0.75rem !important;
+  color: var(--muted-foreground) !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.driver-highlighted-element {
+  border-radius: 0.75rem !important;
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--primary) 20%, transparent), 0 0 0 8px color-mix(in srgb, var(--primary) 10%, transparent) !important;
+}
+
+.driver-overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(2px) !important;
+}
+
+/* Media dentro do popover */
+.driver-popover-description img,
+.driver-popover-description video {
+  border-radius: 0.5rem !important;
+  margin-top: 1rem !important;
+}

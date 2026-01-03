@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="success" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#16a34a"/>
+    </linearGradient>
+    <linearGradient id="warning" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#d97706"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg1)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" fill="#1e293b"/>
+  <text x="30" y="38" font-family="system-ui" font-size="20" font-weight="bold" fill="white">=Ê Dashboard do Gestor</text>
+  <text x="770" y="38" font-family="system-ui" font-size="14" fill="#94a3b8" text-anchor="end">Gestor</text>
+  
+  <!-- Metric Cards -->
+  <g transform="translate(30, 80)">
+    <!-- Card 1 -->
+    <rect width="170" height="100" rx="12" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+    <text x="20" y="35" font-family="system-ui" font-size="12" fill="#64748b">Total Pedidos</text>
+    <text x="20" y="65" font-family="system-ui" font-size="28" font-weight="bold" fill="#1e293b">1.234</text>
+    <text x="20" y="85" font-family="system-ui" font-size="11" fill="#22c55e">‘ 12% este mês</text>
+    
+    <!-- Card 2 -->
+    <g transform="translate(190, 0)">
+      <rect width="170" height="100" rx="12" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+      <text x="20" y="35" font-family="system-ui" font-size="12" fill="#64748b">Produtos Ativos</text>
+      <text x="20" y="65" font-family="system-ui" font-size="28" font-weight="bold" fill="#1e293b">89</text>
+      <text x="20" y="85" font-family="system-ui" font-size="11" fill="#3b82f6">5 novos importados</text>
+    </g>
+    
+    <!-- Card 3 -->
+    <g transform="translate(380, 0)">
+      <rect width="170" height="100" rx="12" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+      <text x="20" y="35" font-family="system-ui" font-size="12" fill="#64748b">Usuários Ativos</text>
+      <text x="20" y="65" font-family="system-ui" font-size="28" font-weight="bold" fill="#1e293b">456</text>
+      <text x="20" y="85" font-family="system-ui" font-size="11" fill="#22c55e">98% engajamento</text>
+    </g>
+    
+    <!-- Card 4 -->
+    <g transform="translate(570, 0)">
+      <rect width="170" height="100" rx="12" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+      <text x="20" y="35" font-family="system-ui" font-size="12" fill="#64748b">Pontos em Circulação</text>
+      <text x="20" y="65" font-family="system-ui" font-size="28" font-weight="bold" fill="#1e293b">50K</text>
+      <text x="20" y="85" font-family="system-ui" font-size="11" fill="#f59e0b">R$ 25.000 equivalente</text>
+    </g>
+  </g>
+  
+  <!-- Chart Area -->
+  <g transform="translate(30, 200)">
+    <rect width="450" height="220" rx="12" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+    <text x="20" y="30" font-family="system-ui" font-size="14" font-weight="600" fill="#1e293b">=È Vendas por Período</text>
+    
+    <!-- Simplified chart -->
+    <polyline points="40,180 100,140 160,160 220,100 280,120 340,80 400,60" 
+              fill="none" stroke="url(#primary)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="400" cy="60" r="6" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Side panel -->
+  <g transform="translate(500, 200)">
+    <rect width="270" height="220" rx="12" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+    <text x="20" y="30" font-family="system-ui" font-size="14" font-weight="600" fill="#1e293b">¡ Atalhos Rápidos</text>
+    
+    <g transform="translate(20, 50)">
+      <rect width="230" height="35" rx="8" fill="#f1f5f9"/>
+      <text x="15" y="23" font-family="system-ui" font-size="13" fill="#475569">=æ Ver Pedidos Pendentes</text>
+    </g>
+    <g transform="translate(20, 95)">
+      <rect width="230" height="35" rx="8" fill="#f1f5f9"/>
+      <text x="15" y="23" font-family="system-ui" font-size="13" fill="#475569">=Í Importar Produtos</text>
+    </g>
+    <g transform="translate(20, 140)">
+      <rect width="230" height="35" rx="8" fill="#f1f5f9"/>
+      <text x="15" y="23" font-family="system-ui" font-size="13" fill="#475569"><¨ Criar Landing Page</text>
+    </g>
+    <g transform="translate(20, 185)">
+      <rect width="230" height="35" rx="8" fill="#dbeafe"/>
+      <text x="15" y="23" font-family="system-ui" font-size="13" fill="#1d4ed8">=e Gerenciar Usuários</text>
+    </g>
+  </g>
+</svg>

@@ -60,7 +60,7 @@ export interface SpreeCustomer {
     country: string
   }
   // Campos customizados
-  brents?: number // Pontos BRENTS do usuário
+  points?: number // Pontos do usuário
   tags?: string[] // Tags associadas ao usuário
   createdAt: string
   updatedAt: string
@@ -76,7 +76,7 @@ export interface SpreeProduct {
   slug: string
   sku: string
   price: number
-  priceInBrents?: number
+  priceInPoints?: number
   stock: number
   images: string[]
   category?: string

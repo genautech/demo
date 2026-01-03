@@ -1,0 +1,28 @@
+# Auto Claude - Project Rules
+
+This project uses the **Auto Claude** system for automated documentation, task tracking, and architectural insights.
+
+## Core Directories
+
+- `.auto-claude/insights/`: Session history and AI-generated insights.
+- `.auto-claude/roadmap/`: Long-term project roadmap and milestones.
+- `.auto-claude/specs/`: Detailed requirements and implementation plans for features.
+- `.auto-claude/ideation/`: Brainstorming and early-stage feature definitions.
+
+## Agent Behavior
+
+1.  **Context First**: Before starting any task, always check `.auto-claude/insights/current_session.json` and the latest session file in `.auto-claude/insights/sessions/`.
+2.  **Follow Specs**: Check `.auto-claude/specs/` for any existing implementation plans or requirements related to the task.
+3.  **Update Progress**: After completing a task or a significant phase, update the relevant files in `.auto-claude/`.
+4.  **Auto-Sync**: Use `./claude.sh sync` to synchronize code changes with the documentation.
+
+## Documentation Standards
+
+- All feature tracks must have an implementation plan in `.auto-claude/specs/[feature-name]/implementation_plan.json`.
+- Maintain a clear changelog in `conductor/CHANGELOG.md` (shared with Conductor).
+
+## Integration with Conductor
+
+- **Auto Claude** works alongside **Conductor** (Gemini).
+- Both systems should be kept in sync.
+- Use `conductor/` for shared documentation and `.auto-claude/` for Claude-specific insights and planning.

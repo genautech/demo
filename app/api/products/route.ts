@@ -15,7 +15,7 @@
  */
 
 import { NextResponse } from "next/server"
-import { getProducts } from "@/lib/storage"
+import { getProducts, getCompanyProductsByCompany } from "@/lib/storage"
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
@@ -28,12 +28,29 @@ export async function GET(request: Request) {
   const search = searchParams.get("search") || ""
   const category = searchParams.get("category") || ""
   const tag = searchParams.get("tag") || ""
+  const companyId = searchParams.get("companyId") || ""
 
   try {
     // TODO: Substituir por chamada à API do Spree
     // const spreeProducts = await getProducts({ page, perPage, ... })
 
-    let products = getProducts()
+    // Se companyId for fornecido, retorna produtos da empresa (CompanyProduct)
+    // Caso contrário, retorna produtos do catálogo global (Product)
+    let products: any[] = companyId 
+      ? getCompanyProductsByCompany(companyId).map(cp => ({
+          ...cp,
+          // Mapear campos de CompanyProduct para formato compatível com Product
+          stock: cp.stockQuantity,
+          price: cp.price,
+          priceInPoints: cp.pointsCost,
+          name: cp.name,
+          sku: cp.finalSku,
+          images: cp.images,
+          category: cp.category,
+          available: cp.isActive,
+          active: cp.isActive,
+        }))
+      : getProducts()
 
     // Aplicar filtros
     if (search) {

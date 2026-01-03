@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdf4ff"/>
+      <stop offset="100%" style="stop-color:#fae8ff"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg6)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" fill="#86198f"/>
+  <text x="30" y="38" font-family="system-ui" font-size="20" font-weight="bold" fill="white"><Æ GamificaÁ„o</text>
+  <text x="770" y="38" font-family="system-ui" font-size="14" fill="#f0abfc" text-anchor="end">Membro</text>
+  
+  <!-- Level card -->
+  <g transform="translate(30, 80)">
+    <rect width="350" height="180" rx="16" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.1))"/>
+    <rect x="0" y="0" width="350" height="60" rx="16" fill="url(#gold)"/>
+    <rect x="0" y="30" width="350" height="30" fill="#fbbf24"/>
+    
+    <text x="25" y="40" font-family="system-ui" font-size="18" font-weight="bold" fill="#78350f">>G NÌvel Ouro</text>
+    <text x="320" y="40" font-family="system-ui" font-size="14" fill="#92400e" text-anchor="end">1.5x cashback</text>
+    
+    <text x="25" y="90" font-family="system-ui" font-size="12" fill="#64748b">Progresso para Platina =é</text>
+    <rect x="25" y="100" width="300" height="12" rx="6" fill="#e2e8f0"/>
+    <rect x="25" y="100" width="210" height="12" rx="6" fill="#a855f7"/>
+    <text x="325" y="111" font-family="system-ui" font-size="11" fill="#7c3aed" text-anchor="end">70%</text>
+    
+    <text x="25" y="140" font-family="system-ui" font-size="13" fill="#1e293b">7.500 / 10.000 pts acumulados</text>
+    <text x="25" y="165" font-family="system-ui" font-size="12" fill="#64748b">Faltam 2.500 pts para subir de nÌvel!</text>
+  </g>
+  
+  <!-- Levels explanation -->
+  <g transform="translate(400, 80)">
+    <rect width="370" height="180" rx="16" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.1))"/>
+    <text x="25" y="35" font-family="system-ui" font-size="14" font-weight="600" fill="#1e293b"><∆ NÌveis e BenefÌcios</text>
+    
+    <g transform="translate(25, 55)">
+      <circle cx="12" cy="10" r="10" fill="#92400e"/>
+      <text x="30" y="15" font-family="system-ui" font-size="12" fill="#64748b">Bronze - 1.0x cashback</text>
+    </g>
+    <g transform="translate(25, 80)">
+      <circle cx="12" cy="10" r="10" fill="#94a3b8"/>
+      <text x="30" y="15" font-family="system-ui" font-size="12" fill="#64748b">Prata - 1.2x cashback</text>
+    </g>
+    <g transform="translate(25, 105)">
+      <circle cx="12" cy="10" r="10" fill="#fbbf24"/>
+      <text x="30" y="15" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">Ouro - 1.5x cashback ê VocÍ</text>
+    </g>
+    <g transform="translate(25, 130)">
+      <circle cx="12" cy="10" r="10" fill="#a855f7"/>
+      <text x="30" y="15" font-family="system-ui" font-size="12" fill="#64748b">Platina - 2.0x cashback</text>
+    </g>
+    <g transform="translate(25, 155)">
+      <circle cx="12" cy="10" r="10" fill="#06b6d4"/>
+      <text x="30" y="15" font-family="system-ui" font-size="12" fill="#64748b">Diamante - 3.0x cashback</text>
+    </g>
+  </g>
+  
+  <!-- Achievements -->
+  <g transform="translate(30, 280)">
+    <rect width="740" height="140" rx="16" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.1))"/>
+    <text x="25" y="35" font-family="system-ui" font-size="14" font-weight="600" fill="#1e293b"><≈ Conquistas Desbloqueadas</text>
+    
+    <g transform="translate(25, 55)">
+      <rect width="100" height="70" rx="10" fill="#dcfce7"/>
+      <text x="50" y="35" font-family="system-ui" font-size="28" text-anchor="middle"><â</text>
+      <text x="50" y="58" font-family="system-ui" font-size="10" fill="#166534" text-anchor="middle">1™ Compra</text>
+    </g>
+    
+    <g transform="translate(140, 55)">
+      <rect width="100" height="70" rx="10" fill="#dbeafe"/>
+      <text x="50" y="35" font-family="system-ui" font-size="28" text-anchor="middle">=%</text>
+      <text x="50" y="58" font-family="system-ui" font-size="10" fill="#1d4ed8" text-anchor="middle">5 Pedidos</text>
+    </g>
+    
+    <g transform="translate(255, 55)">
+      <rect width="100" height="70" rx="10" fill="#fef3c7"/>
+      <text x="50" y="35" font-family="system-ui" font-size="28" text-anchor="middle">=∞</text>
+      <text x="50" y="58" font-family="system-ui" font-size="10" fill="#a16207" text-anchor="middle">5K pts gastos</text>
+    </g>
+    
+    <g transform="translate(370, 55)">
+      <rect width="100" height="70" rx="10" fill="#f3e8ff"/>
+      <text x="50" y="35" font-family="system-ui" font-size="28" text-anchor="middle">P</text>
+      <text x="50" y="58" font-family="system-ui" font-size="10" fill="#7c3aed" text-anchor="middle">10 AvaliaÁıes</text>
+    </g>
+    
+    <g transform="translate(485, 55)">
+      <rect width="100" height="70" rx="10" fill="#e2e8f0" stroke-dasharray="4 2" stroke="#94a3b8" stroke-width="2"/>
+      <text x="50" y="35" font-family="system-ui" font-size="28" text-anchor="middle" opacity="0.4"><∆</text>
+      <text x="50" y="58" font-family="system-ui" font-size="10" fill="#94a3b8" text-anchor="middle">PrÛxima...</text>
+    </g>
+    
+    <g transform="translate(600, 55)">
+      <rect width="100" height="70" rx="10" fill="#e2e8f0" stroke-dasharray="4 2" stroke="#94a3b8" stroke-width="2"/>
+      <text x="50" y="35" font-family="system-ui" font-size="28" text-anchor="middle" opacity="0.4">=Q</text>
+      <text x="50" y="58" font-family="system-ui" font-size="10" fill="#94a3b8" text-anchor="middle">Bloqueado</text>
+    </g>
+  </g>
+</svg>

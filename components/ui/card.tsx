@@ -1,13 +1,25 @@
-import * as React from 'react'
+"use client"
 
+import * as React from 'react'
+import { useTheme } from 'next-themes'
 import { cn } from '@/lib/utils'
 
 function Card({ className, ...props }: React.ComponentProps<'div'>) {
+  const { theme } = useTheme()
+  const [mounted, setMounted] = React.useState(false)
+  
+  React.useEffect(() => {
+    setMounted(true)
+  }, [])
+  
+  const isFunMode = mounted && theme === "fun"
+  
   return (
     <div
       data-slot="card"
       className={cn(
-        'bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm',
+        'bg-card text-card-foreground flex flex-col gap-6 rounded-xl border-2 border-border/50 py-6 shadow-md',
+        isFunMode && 'border-primary/30 shadow-lg hover:shadow-xl transition-shadow',
         className,
       )}
       {...props}

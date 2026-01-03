@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecfdf5"/>
+      <stop offset="100%" style="stop-color:#d1fae5"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#16a34a"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg3)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" fill="#166534"/>
+  <text x="30" y="38" font-family="system-ui" font-size="20" font-weight="bold" fill="white">=æ Catálogo de Produtos</text>
+  <text x="770" y="38" font-family="system-ui" font-size="14" fill="#86efac" text-anchor="end">Gestor</text>
+  
+  <!-- Search bar -->
+  <g transform="translate(30, 80)">
+    <rect width="500" height="45" rx="10" fill="white" stroke="#d1fae5" stroke-width="2"/>
+    <text x="20" y="28" font-family="system-ui" font-size="14" fill="#64748b">= Buscar produtos por nome, SKU ou categoria...</text>
+    <rect x="520" y="0" width="120" height="45" rx="10" fill="url(#green)"/>
+    <text x="580" y="28" font-family="system-ui" font-size="13" font-weight="600" fill="white" text-anchor="middle">Importar</text>
+  </g>
+  
+  <!-- Products grid -->
+  <g transform="translate(30, 145)">
+    <!-- Product 1 -->
+    <g>
+      <rect width="175" height="220" rx="12" fill="white" filter="drop-shadow(0 2px 6px rgba(0,0,0,0.08))"/>
+      <rect x="10" y="10" width="155" height="100" rx="8" fill="#f1f5f9"/>
+      <text x="87" y="65" font-family="system-ui" font-size="32" text-anchor="middle">=U</text>
+      <text x="15" y="130" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">Camiseta Corporate</text>
+      <text x="15" y="148" font-family="system-ui" font-size="11" fill="#64748b">SKU: CAM-001</text>
+      <text x="15" y="170" font-family="system-ui" font-size="16" font-weight="bold" fill="#16a34a">250 pts</text>
+      <rect x="15" y="185" width="145" height="25" rx="6" fill="#dcfce7"/>
+      <text x="87" y="203" font-family="system-ui" font-size="11" fill="#166534" text-anchor="middle"> Em estoque (50)</text>
+    </g>
+    
+    <!-- Product 2 -->
+    <g transform="translate(190, 0)">
+      <rect width="175" height="220" rx="12" fill="white" filter="drop-shadow(0 2px 6px rgba(0,0,0,0.08))"/>
+      <rect x="10" y="10" width="155" height="100" rx="8" fill="#f1f5f9"/>
+      <text x="87" y="65" font-family="system-ui" font-size="32" text-anchor="middle"><’</text>
+      <text x="15" y="130" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">Mochila Executive</text>
+      <text x="15" y="148" font-family="system-ui" font-size="11" fill="#64748b">SKU: MOC-002</text>
+      <text x="15" y="170" font-family="system-ui" font-size="16" font-weight="bold" fill="#16a34a">800 pts</text>
+      <rect x="15" y="185" width="145" height="25" rx="6" fill="#dcfce7"/>
+      <text x="87" y="203" font-family="system-ui" font-size="11" fill="#166534" text-anchor="middle"> Em estoque (25)</text>
+    </g>
+    
+    <!-- Product 3 -->
+    <g transform="translate(380, 0)">
+      <rect width="175" height="220" rx="12" fill="white" filter="drop-shadow(0 2px 6px rgba(0,0,0,0.08))"/>
+      <rect x="10" y="10" width="155" height="100" rx="8" fill="#f1f5f9"/>
+      <text x="87" y="65" font-family="system-ui" font-size="32" text-anchor="middle">=±</text>
+      <text x="15" y="130" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">Mouse Wireless</text>
+      <text x="15" y="148" font-family="system-ui" font-size="11" fill="#64748b">SKU: MOU-003</text>
+      <text x="15" y="170" font-family="system-ui" font-size="16" font-weight="bold" fill="#16a34a">450 pts</text>
+      <rect x="15" y="185" width="145" height="25" rx="6" fill="#fef9c3"/>
+      <text x="87" y="203" font-family="system-ui" font-size="11" fill="#a16207" text-anchor="middle">  Estoque baixo (5)</text>
+    </g>
+    
+    <!-- Product 4 -->
+    <g transform="translate(570, 0)">
+      <rect width="175" height="220" rx="12" fill="white" filter="drop-shadow(0 2px 6px rgba(0,0,0,0.08))"/>
+      <rect x="10" y="10" width="155" height="100" rx="8" fill="#f1f5f9"/>
+      <text x="87" y="65" font-family="system-ui" font-size="32" text-anchor="middle"><§</text>
+      <text x="15" y="130" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">Fone Bluetooth</text>
+      <text x="15" y="148" font-family="system-ui" font-size="11" fill="#64748b">SKU: FON-004</text>
+      <text x="15" y="170" font-family="system-ui" font-size="16" font-weight="bold" fill="#16a34a">600 pts</text>
+      <rect x="15" y="185" width="145" height="25" rx="6" fill="#dcfce7"/>
+      <text x="87" y="203" font-family="system-ui" font-size="11" fill="#166534" text-anchor="middle"> Em estoque (30)</text>
+    </g>
+  </g>
+  
+  <!-- Pagination -->
+  <g transform="translate(300, 400)">
+    <rect x="0" y="0" width="35" height="35" rx="8" fill="#22c55e"/>
+    <text x="17" y="24" font-family="system-ui" font-size="14" font-weight="600" fill="white" text-anchor="middle">1</text>
+    <rect x="45" y="0" width="35" height="35" rx="8" fill="white" stroke="#e2e8f0"/>
+    <text x="62" y="24" font-family="system-ui" font-size="14" fill="#64748b" text-anchor="middle">2</text>
+    <rect x="90" y="0" width="35" height="35" rx="8" fill="white" stroke="#e2e8f0"/>
+    <text x="107" y="24" font-family="system-ui" font-size="14" fill="#64748b" text-anchor="middle">3</text>
+    <text x="155" y="24" font-family="system-ui" font-size="14" fill="#64748b">...</text>
+    <rect x="185" y="0" width="35" height="35" rx="8" fill="white" stroke="#e2e8f0"/>
+    <text x="202" y="24" font-family="system-ui" font-size="14" fill="#64748b" text-anchor="middle">10</text>
+  </g>
+</svg>

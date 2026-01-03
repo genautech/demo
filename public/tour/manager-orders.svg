@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff7ed"/>
+      <stop offset="100%" style="stop-color:#ffedd5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg7)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" fill="#c2410c"/>
+  <text x="30" y="38" font-family="system-ui" font-size="20" font-weight="bold" fill="white">=Ò Central de Pedidos</text>
+  <text x="770" y="38" font-family="system-ui" font-size="14" fill="#fed7aa" text-anchor="end">Gestor</text>
+  
+  <!-- Stats -->
+  <g transform="translate(30, 80)">
+    <rect width="170" height="70" rx="10" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.05))"/>
+    <text x="20" y="30" font-family="system-ui" font-size="11" fill="#64748b">Pendentes</text>
+    <text x="20" y="55" font-family="system-ui" font-size="24" font-weight="bold" fill="#f97316">12</text>
+    
+    <g transform="translate(185, 0)">
+      <rect width="170" height="70" rx="10" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.05))"/>
+      <text x="20" y="30" font-family="system-ui" font-size="11" fill="#64748b">Processando</text>
+      <text x="20" y="55" font-family="system-ui" font-size="24" font-weight="bold" fill="#3b82f6">8</text>
+    </g>
+    
+    <g transform="translate(370, 0)">
+      <rect width="170" height="70" rx="10" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.05))"/>
+      <text x="20" y="30" font-family="system-ui" font-size="11" fill="#64748b">Enviados</text>
+      <text x="20" y="55" font-family="system-ui" font-size="24" font-weight="bold" fill="#8b5cf6">15</text>
+    </g>
+    
+    <g transform="translate(555, 0)">
+      <rect width="170" height="70" rx="10" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.05))"/>
+      <text x="20" y="30" font-family="system-ui" font-size="11" fill="#64748b">Entregues (mês)</text>
+      <text x="20" y="55" font-family="system-ui" font-size="24" font-weight="bold" fill="#22c55e">234</text>
+    </g>
+  </g>
+  
+  <!-- Table header -->
+  <g transform="translate(30, 170)">
+    <rect width="740" height="40" rx="8" fill="#f97316"/>
+    <text x="25" y="26" font-family="system-ui" font-size="12" font-weight="600" fill="white">Pedido</text>
+    <text x="150" y="26" font-family="system-ui" font-size="12" font-weight="600" fill="white">Cliente</text>
+    <text x="320" y="26" font-family="system-ui" font-size="12" font-weight="600" fill="white">Data</text>
+    <text x="430" y="26" font-family="system-ui" font-size="12" font-weight="600" fill="white">Valor</text>
+    <text x="530" y="26" font-family="system-ui" font-size="12" font-weight="600" fill="white">Status</text>
+    <text x="660" y="26" font-family="system-ui" font-size="12" font-weight="600" fill="white">Ações</text>
+  </g>
+  
+  <!-- Table rows -->
+  <g transform="translate(30, 215)">
+    <rect width="740" height="50" fill="white"/>
+    <text x="25" y="32" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">#YOO-1237</text>
+    <text x="150" y="32" font-family="system-ui" font-size="13" fill="#475569">João Silva</text>
+    <text x="320" y="32" font-family="system-ui" font-size="13" fill="#475569">02/01/2026</text>
+    <text x="430" y="32" font-family="system-ui" font-size="13" font-weight="600" fill="#c2410c">850 pts</text>
+    <rect x="520" y="12" width="80" height="24" rx="12" fill="#fef3c7"/>
+    <text x="560" y="29" font-family="system-ui" font-size="11" fill="#a16207" text-anchor="middle">Pendente</text>
+    <text x="660" y="32" font-family="system-ui" font-size="12" fill="#3b82f6">Processar ’</text>
+    <line x1="0" y1="50" x2="740" y2="50" stroke="#f1f5f9" stroke-width="1"/>
+  </g>
+  
+  <g transform="translate(30, 265)">
+    <rect width="740" height="50" fill="#fafafa"/>
+    <text x="25" y="32" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">#YOO-1236</text>
+    <text x="150" y="32" font-family="system-ui" font-size="13" fill="#475569">Maria Costa</text>
+    <text x="320" y="32" font-family="system-ui" font-size="13" fill="#475569">01/01/2026</text>
+    <text x="430" y="32" font-family="system-ui" font-size="13" font-weight="600" fill="#c2410c">1.200 pts</text>
+    <rect x="520" y="12" width="80" height="24" rx="12" fill="#dbeafe"/>
+    <text x="560" y="29" font-family="system-ui" font-size="11" fill="#1d4ed8" text-anchor="middle">Enviado</text>
+    <text x="660" y="32" font-family="system-ui" font-size="12" fill="#3b82f6">Rastrear ’</text>
+    <line x1="0" y1="50" x2="740" y2="50" stroke="#f1f5f9" stroke-width="1"/>
+  </g>
+  
+  <g transform="translate(30, 315)">
+    <rect width="740" height="50" fill="white"/>
+    <text x="25" y="32" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">#YOO-1235</text>
+    <text x="150" y="32" font-family="system-ui" font-size="13" fill="#475569">Pedro Oliveira</text>
+    <text x="320" y="32" font-family="system-ui" font-size="13" fill="#475569">31/12/2025</text>
+    <text x="430" y="32" font-family="system-ui" font-size="13" font-weight="600" fill="#c2410c">450 pts</text>
+    <rect x="520" y="12" width="80" height="24" rx="12" fill="#dcfce7"/>
+    <text x="560" y="29" font-family="system-ui" font-size="11" fill="#166534" text-anchor="middle">Entregue</text>
+    <text x="660" y="32" font-family="system-ui" font-size="12" fill="#3b82f6">Detalhes ’</text>
+  </g>
+  
+  <!-- Export button -->
+  <g transform="translate(630, 400)">
+    <rect width="140" height="35" rx="8" fill="#c2410c"/>
+    <text x="70" y="23" font-family="system-ui" font-size="12" font-weight="600" fill="white" text-anchor="middle">=ä Exportar Excel</text>
+  </g>
+</svg>
